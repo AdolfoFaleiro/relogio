@@ -1,0 +1,38 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#caixa-relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    width: 60vw;
+    height: 30vh;
+    border-radius: 1rem;
+}
+
+#caixa-interna-relogio{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    border: 5px solid black;
+    width: 55vw;
+    height: 23vh;
+    border-radius: 1rem;
+}
+.numeros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    height: 20vh;
+
+}
+p{
+    font-size: 4rem;
+}
